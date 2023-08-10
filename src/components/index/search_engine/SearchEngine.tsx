@@ -6,7 +6,7 @@ function SearchEngine(): JSX.Element {
       <div className="main__container">
         <div className="main__logo">
           <img
-            src="/GoogleLogo.png"
+            src="/imgs/pages/index/SearchEngineGoogleLogo.png"
             className="main__google"
             alt="Google logo"
           />
@@ -17,7 +17,7 @@ function SearchEngine(): JSX.Element {
           <div className="main__content">
             <div className="main__label">
               <img
-                src="/Search.svg"
+                src="/imgs/pages/index/SearchBarMagnifierIcon.svg"
                 alt="Search Icon"
               />
             </div>
@@ -30,12 +30,12 @@ function SearchEngine(): JSX.Element {
             <button
               type="button"
               className="main__action">
-              <img src="/Mic.svg" />
+              <img src="/imgs/pages/index/VoiceSearchMicrophoneIcon.svg" />
             </button>
             <button
               type="button"
               className="main__action">
-              <img src="/Camera.svg" />
+              <img src="/imgs/pages/index/SearchEngineGoogleLensCameraIcon.svg" />
             </button>
           </div>
         </form>
