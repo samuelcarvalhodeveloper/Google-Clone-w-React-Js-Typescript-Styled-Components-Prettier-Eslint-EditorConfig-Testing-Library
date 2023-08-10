@@ -18,7 +18,7 @@ function Header(): JSX.Element {
           href="#"
           className="header__more">
           <img
-            src="/imgs/pages/index/HeaderMoreGoogleAppsIcon.svg"
+            src="/imgs/pages/index/ui_icons/header/MoreGoogleAppsIcon.svg"
             alt="more button"
             className="header__icon"
           />
