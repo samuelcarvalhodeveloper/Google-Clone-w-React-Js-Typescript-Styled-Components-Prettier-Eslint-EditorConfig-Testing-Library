@@ -39,6 +39,10 @@ Google Clone With React Js Typescript Styled Components Prettier Eslint EditorCo
 
 `npm run build`
 
+**To Run The Tests:**
+
+`npm run test`
+
 <br />
 
 <h3 id="technologies">🚀  Technologies:</h3>
