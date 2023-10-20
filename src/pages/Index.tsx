@@ -1,6 +1,6 @@
-import Footer from "../components/index/footer/Footer";
-import Header from "../components/index/header/Header";
-import SearchEngine from "../components/index/search_engine/SearchEngine";
+import Footer from "../components/index/footer/implementation/Footer";
+import Header from "../components/index/header/implementation/Header";
+import SearchEngine from "../components/index/search_engine/implementation/SearchEngine";
 
 function Index(): JSX.Element {
   return (

@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"header", any, {}, never> = styled.header`
+const Styles: StyledComponent<"header", any, {}, never> = styled.header`
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -65,4 +65,4 @@ const Styled: StyledComponent<"header", any, {}, never> = styled.header`
   }
 `;
 
-export default Styled;
+export default Styles;

@@ -1,8 +1,8 @@
-import Styled from "./Styled";
+import Styles from "../styles/Styles";
 
 function Footer(): JSX.Element {
   return (
-    <Styled>
+    <Styles>
       <div className="footer__region">
         <p className="footer__country">United States</p>
       </div>
@@ -47,7 +47,7 @@ function Footer(): JSX.Element {
           </a>
         </div>
       </div>
-    </Styled>
+    </Styles>
   );
 }
 

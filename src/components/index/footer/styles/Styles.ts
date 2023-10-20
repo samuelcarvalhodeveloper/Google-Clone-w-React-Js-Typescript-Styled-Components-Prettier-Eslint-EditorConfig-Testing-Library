@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"footer", any, {}, never> = styled.footer`
+const Styles: StyledComponent<"footer", any, {}, never> = styled.footer`
   width: 100%;
   background: #f2f2f2;
   color: #70757a;
@@ -77,4 +77,4 @@ const Styled: StyledComponent<"footer", any, {}, never> = styled.footer`
   }
 `;
 
-export default Styled;
+export default Styles;

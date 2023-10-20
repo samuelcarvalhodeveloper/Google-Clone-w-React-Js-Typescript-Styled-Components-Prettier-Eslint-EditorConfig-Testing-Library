@@ -1,6 +1,6 @@
 import styled, { StyledComponent } from "styled-components";
 
-const Styled: StyledComponent<"main", any, {}, never> = styled.main`
+const Styles: StyledComponent<"main", any, {}, never> = styled.main`
   height: calc(100vh - 15.5rem);
   min-height: 60rem;
   width: 100%;
@@ -115,4 +115,4 @@ const Styled: StyledComponent<"main", any, {}, never> = styled.main`
   }
 `;
 
-export default Styled;
+export default Styles;

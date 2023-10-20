@@ -1,8 +1,8 @@
-import Styled from "./Styled";
+import Styles from "../styles/Styles";
 
 function SearchEngine(): JSX.Element {
   return (
-    <Styled>
+    <Styles>
       <div className="main__container">
         <div className="main__logo">
           <img
@@ -53,7 +53,7 @@ function SearchEngine(): JSX.Element {
           </button>
         </div>
       </div>
-    </Styled>
+    </Styles>
   );
 }
 

@@ -1,8 +1,8 @@
-import Styled from "./Styled";
+import Styles from "../styles/Styles";
 
 function Header(): JSX.Element {
   return (
-    <Styled>
+    <Styles>
       <div className="header__container">
         <a
           href="#"
@@ -27,7 +27,7 @@ function Header(): JSX.Element {
           <div className="header__photo" />
         </a>
       </div>
-    </Styled>
+    </Styles>
   );
 }
 
